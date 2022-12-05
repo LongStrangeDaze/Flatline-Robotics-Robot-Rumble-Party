@@ -1,4 +1,12 @@
 import React, { Component } from 'react'
+import basic1 from '../images/basic1.png'
+import basic2 from '../images/basic2.PNG'
+import advanced1 from '../images/advanced1.png'
+import advanced2 from '../images/advanced2.png'
+import delux1 from '../images/delux1.png'
+import delux2 from '../images/delux2.png'
+import bigbang1 from '../images/bigbang1.png'
+import bigbang2 from '../images/bigbang2.png'
 export default class KidsParty extends Component {
   render() {
     return (
@@ -7,18 +15,18 @@ export default class KidsParty extends Component {
         </br>
         <br>
         </br>
-        <h3>Kids Party Info</h3>
+        <center><h1>Kids Party Info</h1></center>
 
         <p>
           <div class="columns">
             <div class="column">
-              basic1.png
+              <img src={basic1}/>
             </div>
             <div class="column">
             <ul>
               Basic Party
               <br></br>
-              Up to 16 participants, 
+              Up to 16 participants 
               minimum age is 7
               Robots: 8
               Hosts: 1
@@ -28,26 +36,23 @@ export default class KidsParty extends Component {
               </ul>
               </div>
             <div class="column">
-              <p>$350 basic2.png</p>
+                <p>$350</p>
+                <img src={basic2} />
             </div>
           </div>
           Our most popular birthday (or other party type!) package
           Sixteen kids experience a robot war in your living room
         </p>
         <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <a class="btn btn-primary" href="/contactus" role="button">
             Select Package
           </a>
         </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            {/* Add Form Data here  */}
-          </div>
-        </div>
+        
 
         <p>
           <div class="columns">
-            <div class="column">delux1.png</div>
+            <div class="column"><img src={delux1} /></div>
             <div class="column">
               <ul>
               Deluxe Party
@@ -61,25 +66,22 @@ export default class KidsParty extends Component {
               Start Hour: 3.30 PM Sat & Sun
               </ul>
             </div>
-            <div class="column"><p>$ 450 delux2.png</p></div>
+            <div class="column"><p>$ 450</p>
+             <img src={delux2} /></div>
           </div>
 
           The Deluxe is ideal for larger groups
           With extra Robots and an extra hour, we can accommodate the entire class
         </p>
         <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-primary" href="/contactus" role="button">
             Select Package
           </a>
         </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            {/* Add Form Data here  */}
-          </div>
-        </div>
+        
         <p>
           <div class="columns">
-            <div class="column">advanced1.png</div>
+            <div class="column"><img src={advanced1}/></div>
             <div class="column">
               <ul>
               Advanced Party
@@ -94,22 +96,19 @@ export default class KidsParty extends Component {
               </ul>
               Time to break out the big guns.
               As our spinner and pneumatic robots take to the arena with more powerful weapon types.</div>
-            <div class="column"><p>$ 450 advanced2.png</p></div>
+            <div class="column"><p>$ 450</p>
+            <img src={advanced2}/></div>
           </div>
         </p>
         <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-primary" href="/contactus" role="button">
             Select Package
           </a>
         </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            {/* Add Form Data here  */}
-          </div>
-        </div>
+        
         <p>
           <div class="columns">
-            <div class="column">BigBang1.png</div>
+            <div class="column"><img src={bigbang1}/></div>
             <div class="column">
               <ul>
               Big Bang Party
@@ -123,21 +122,17 @@ export default class KidsParty extends Component {
               Start Hour: anytime
               </ul>
               </div>
-            <div class="column">$ 1,750 BigBang2.png</div>
+            <div class="column"><p>$ 1,750</p>
+            <img src={bigbang2}/></div>
           </div>
           It's time to Party!
           Have DJ Glitch spin some tunes while you fight in our double arena's.
         </p>
         <p>
-          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-primary" href="/contactus" role="button">
             Select Package
           </a>
         </p>
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            {/* Add Form Data here  */}
-          </div>
-        </div>
       </form>
     )
   }
