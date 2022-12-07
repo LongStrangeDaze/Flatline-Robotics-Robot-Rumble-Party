@@ -1,16 +1,41 @@
 import React from 'react'
+
+async function postData(url = '', data = {}) {
+  // Default options are marked with *
+  const response = await fetch(url, {
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'same-origin', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    redirect: 'follow', // manual, *follow, error
+    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    body: JSON.stringify(data) // body data type must match "Content-Type" header
+  });
+  return response.json(); // parses JSON response into native JavaScript objects
+}
+
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Submitting...')
     const { name, email, message } = e.target.elements
-    let conFom = {
+    let conForm = {
       name: name.value,
       email: email.value,
       message: message.value,
     }
-    console.log(conFom)
+    console.log(conForm)
+    postData(/*"https://api.fr0.co/contactApi"*/ "http://localhost:5000/", conForm).then((data) => {
+      console.log(data);
+      if(data.success = 1) {
+        setFormStatus("Success!")
+      } else { setFormStatus("youf ucking suck")}
+    })
   }
   return (
     <div className="container mt-5">

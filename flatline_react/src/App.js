@@ -13,31 +13,32 @@ function App() {
     <Router>
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-          <div className="container">
+          <div className="">
             <Link className="navbar-brand" to={'/main'}>
             Robot Rumble Parties
             </Link>
           </div>
-          <div class="navbar-collapse" id="navbar4">
-            <ul className="nav justify-content-space-between">
-              <li className="nav-item">
+          <div class="navbar-collapse ml-auto justify-content-end" id="navbar4">
+            <ul className="nav ml-auto ">
+              <li className="nav-item m-1">
                 <Link className="nav-link" to={'/aboutus'}>
                   About
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item m-1">
                 <Link className="nav-link" to={'/kidsparty'}>
                   Kids Partys
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item m-1">
                 <Link className="nav-link" to={'/companyevents'}>
                   Company Events
                 </Link>
               </li>
+              <li className='nav-item m-1'>
               <Link className="nav-link" to={'/contactus'}>
                 Contact Us
-              </Link>
+              </Link></li>
             </ul>
           </div>
         </nav>

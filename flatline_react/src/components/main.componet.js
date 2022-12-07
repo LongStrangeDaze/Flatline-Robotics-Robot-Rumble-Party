@@ -15,7 +15,7 @@ export default class Main extends Component {
         <br></br>
         <center><strong>We offer very an experience like no other. Click the gear below to get started</strong></center>
         <br></br>
-        <center><img src={logo2}/></center>
+        <center><a href="/aboutus"><img src={logo2}/></a></center>
         <footer><h10>presented by Flatline Robotics</h10></footer>
   
 <p>
