@@ -8,7 +8,6 @@ import CompanyEvents from './components/companyevents.componet'
 import ContactUs from './components/contactus.componet'
 import KidsParty from './components/kidsparty.componet'
 
-
 function App() {
   return (
     <Router>
@@ -16,7 +15,7 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <Link className="navbar-brand" to={'/main'}>
-              Flatline Robotics
+            Robot Rumble Parties
             </Link>
           </div>
           <div class="navbar-collapse" id="navbar4">

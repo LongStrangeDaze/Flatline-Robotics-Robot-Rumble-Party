@@ -48,13 +48,16 @@ body, html, .App, #root, .auth-wrapper {
 }
 
 
+
 .columns {
-  display: flex;
+  display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-}
+  }
 
+  
 .column {
   flex: 33.33%;
+  text-align: center;
 }

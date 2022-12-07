@@ -23,20 +23,26 @@ export default class KidsParty extends Component {
               <img src={basic1}/>
             </div>
             <div class="column">
-            <ul>
-              Basic Party
+            
+              <h5><strong><center>Basic Party</center></strong></h5>
+              <ul>
+              Up to 16 participants
               <br></br>
-              Up to 16 participants 
               minimum age is 7
+              <br></br>
               Robots: 8
+              <br></br>
               Hosts: 1
+              <br></br>
               Arenas: 1
+              <br></br>
               Duration: 2 Hours
+              <br></br>
               Start Hour: 11 AM / 3.30 PM Sat & Sun
-              </ul>
+            </ul>
               </div>
             <div class="column">
-                <p>$350</p>
+            <h5><strong><center>$350</center></strong></h5>
                 <img src={basic2} />
             </div>
           </div>
@@ -49,24 +55,30 @@ export default class KidsParty extends Component {
           </a>
         </p>
         
-
         <p>
           <div class="columns">
             <div class="column"><img src={delux1} /></div>
             <div class="column">
               <ul>
-              Deluxe Party
+              <h5><strong><center>Deluxe Party</center></strong></h5>
               <br></br> 
               Up to 24 participants
+              <br></br>
               minimum age is 7
+              <br></br>
               Robots: 10
+              <br></br>
               Hosts: 1
+              <br></br>
               Arenas: 1
+              <br></br>
               Duration: 3 Hours
+              <br></br>
               Start Hour: 3.30 PM Sat & Sun
               </ul>
             </div>
-            <div class="column"><p>$ 450</p>
+            <div class="column">
+            <h5><strong><center>$450</center></strong></h5>
              <img src={delux2} /></div>
           </div>
 
@@ -81,27 +93,40 @@ export default class KidsParty extends Component {
         
         <p>
           <div class="columns">
-            <div class="column"><img src={advanced1}/></div>
             <div class="column">
-              <ul>
-              Advanced Party
+              <img src={advanced1}/>
+            </div>
+            <div class="column">
+            <ul>
+            <h5><strong><center>Advanced Party</center></strong></h5>
               <br></br>
               Up to 18 participants
+              <br></br>
               minimum age is 9
+              <br></br>
               Robots: 14
+              <br></br>
               Hosts: 1
+              <br></br>
               Arenas: 1
+              <br></br>
               Duration: 2 Hours
+              <br></br>
               Start Hour: 11 AM / 3.30 PM
-              </ul>
-              Time to break out the big guns.
-              As our spinner and pneumatic robots take to the arena with more powerful weapon types.</div>
-            <div class="column"><p>$ 450</p>
-            <img src={advanced2}/></div>
+              <br></br>
+               </ul>
+              </div>
+            <div class="column">
+            <h5><strong><center>$450</center></strong></h5>
+                <img src={advanced2} />
+            </div>
           </div>
+          Time to break out the big guns.
+         As our spinner and pneumatic robots take to the arena with more powerful weapon types.
+ 
         </p>
         <p>
-        <a class="btn btn-primary" href="/contactus" role="button">
+          <a class="btn btn-primary" href="/contactus" role="button">
             Select Package
           </a>
         </p>
@@ -111,22 +136,30 @@ export default class KidsParty extends Component {
             <div class="column"><img src={bigbang1}/></div>
             <div class="column">
               <ul>
-              Big Bang Party
+              <h5><strong><center>Big Bang Party</center></strong></h5>
               <br></br>
               unlimited guests
+              <br></br>
               Robots: 20
+              <br></br>
               Hosts: 2
+              <br></br>
               Arenas: 2
-              Music: Dj Dan
+              <br></br>
+              Music: Dj Danyon
+              <br></br>
               Duration: 4 Hours
+              <br></br>
               Start Hour: anytime
+              
               </ul>
               </div>
-            <div class="column"><p>$ 1,750</p>
+            <div class="column">
+            <h5><strong><center>$1,750</center></strong></h5>
             <img src={bigbang2}/></div>
           </div>
           It's time to Party!
-          Have DJ Glitch spin some tunes while you fight in our double arena's.
+          Have DJ Danyon spin some tunes while you fight in our double arena's.
         </p>
         <p>
         <a class="btn btn-primary" href="/contactus" role="button">

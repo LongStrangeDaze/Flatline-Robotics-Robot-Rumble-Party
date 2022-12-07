@@ -1,40 +1,58 @@
 import React, { Component } from 'react'
+import corp1 from '../images/corp1.png'
 export default class CompanyEvents extends Component {
   render() {
     return (
-      <form>
-        <h3>Company Events</h3>
-  
-<p>
-Company and Team Building Events
+    <form>
+        <center><h1> Company Events</h1></center>
 
-Flatline Robotics has been igniting excitement at company parties and events for years, helping to inspire teamwork and foster relationships for our business clients.
-We give new meaning to the phrase, “creative collisions!”
-Bot Bash can instantly create an exciting atmosphere for all types of company parties and events. 
-We will organize either a Tournament Bracket for you and your co-workers, Mix and Match, or Fair Style where we hold four-way rumble matches for anyone who wants to jump into the action! 
-It's a great way to break the ice between departments or to build rapport and connection between people there is nothing more unifying than the shared goal destroying the other team. 
-We also offer “Rumble Sessions,” which can include a DJ service to provide background music for even more exciting battles.
-</p>
-<p>
-Basic Corporate Party/ ideal for holiday parties
-1 - 4
-Advanced Arenas
+          <p>
+            <div class="columns">
+              <div class="column">
+              <img src={corp1}/>
+              </div>
+              <div class="column">
+                <ul>
+                  <strong> Company and Team Building Events</strong>
+                  <br></br>
+                  <br></br>
+                  Basic Corporate Party/ ideal for holiday parties
+                  <br></br>
+                  1 - 4
+                  <br></br>
+                  Advanced Arenas
+                  <br></br>
+                  with automated Hazards
+                  <br></br>
+                  10 Combat Robots
+                  <br></br>
+                  per Arena
+                  <br></br>
+                  custom built robots by Flatline Robotics
+                  <br></br>
+                  1 Experienced Technician
+                  <br></br>
+                  Robot Combat Technician will train and coach your guests.
+                </ul>
+              </div>
+              <div class="column">
+              <p>
+          <a class="btn btn-primary" href="/contactus" role="button">
+            Select Package
+          </a>
+        </p>
+                
+              </div>
+            </div>
+            Flatline Robotics sends out one of our Senior Technicians along with our Advanced arena!
+            They organize either a Tournament Bracket for you and your co-workers or Fair Style where we hold four-way rumble matches for anyone who wants to jump into the action!
+          </p>
+          
 
-with automated Hazards
 
-10 Combat Robots
-per Arena
 
-custom built by bot.bash
-
-1 Experienced Technician
-
-Robot Combat Technician will train and coach your guests.
-
-Bot Bash sends out one of our Senior Technicians along with our Advanced arena! 
-They organize either a Tournament Bracket for you and your co-workers or Fair Style where we hold four-way rumble matches for anyone who wants to jump into the action! 
-</p>
-      </form>
-    )
+    
+          </form>
+          )
   }
 }
