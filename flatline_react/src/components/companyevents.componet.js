@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import corp1 from '../images/corp1.png'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 export default class CompanyEvents extends Component {
   render() {
     return (
@@ -37,8 +38,8 @@ export default class CompanyEvents extends Component {
               </div>
               <div class="column">
               <p>
-          <a class="btn btn-primary" href="/contactus" role="button">
-            Select Package
+              <a class="btn btn-outline-dark"   role="button">
+          <Link to={'/contactus'}>Select Package</Link>
           </a>
         </p>
                 

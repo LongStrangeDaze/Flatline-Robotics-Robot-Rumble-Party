@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import basic1 from '../images/basic1.png'
 import basic2 from '../images/basic2.PNG'
 import advanced1 from '../images/advanced1.png'
@@ -50,8 +51,8 @@ export default class KidsParty extends Component {
           Sixteen kids experience a robot war in your living room
         </p>
         <p>
-          <a class="btn btn-primary" href="/contactus" role="button">
-            Select Package
+          <a class="btn btn-outline-dark"   role="button">
+          <Link to={'/contactus'}>Select Package</Link>
           </a>
         </p>
         
@@ -86,8 +87,8 @@ export default class KidsParty extends Component {
           With extra Robots and an extra hour, we can accommodate the entire class
         </p>
         <p>
-        <a class="btn btn-primary" href="/contactus" role="button">
-            Select Package
+        <a class="btn btn-outline-dark"  role="button">
+        <Link to={'/contactus'}>Select Package</Link>
           </a>
         </p>
         
@@ -126,8 +127,8 @@ export default class KidsParty extends Component {
  
         </p>
         <p>
-          <a class="btn btn-primary" href="/contactus" role="button">
-            Select Package
+          <a class="btn btn-outline-dark"   role="button">
+          <Link to={'/contactus'}>Select Package</Link>
           </a>
         </p>
         
@@ -162,8 +163,8 @@ export default class KidsParty extends Component {
           Have DJ Danyon spin some tunes while you fight in our double arena's.
         </p>
         <p>
-        <a class="btn btn-primary" href="/contactus" role="button">
-            Select Package
+        <a class="btn btn-outline-dark"  role="button">
+        <Link to={'/contactus'}>Select Package</Link>
           </a>
         </p>
       </form>

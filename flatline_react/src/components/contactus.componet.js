@@ -34,7 +34,7 @@ const ContactForm = () => {
       console.log(data);
       if(data.success = 1) {
         setFormStatus("Success!")
-      } else { setFormStatus("youf ucking suck")}
+      } else { setFormStatus("Please Try")}
     })
   }
   return (
