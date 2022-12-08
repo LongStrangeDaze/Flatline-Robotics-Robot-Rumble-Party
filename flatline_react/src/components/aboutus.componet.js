@@ -14,7 +14,7 @@ export default class AboutUs extends Component {
         Utilizing state of the art technology, FR will provide an engaging, interactive, and safe experience for participants.
 <p>
   <br></br>
-  <p>Our robots range from small kid friendly 3D printed models, all the way up to our big our spinner and pneumatic robots, with even more styles and variants coming soon!</p>
+  <p>Our robots range from small kid friendly 3D printed models, all the way up to our big spinner and pneumatic robots, with even more styles and variants coming soon!</p>
   <img src={bigboi}/>
   <br></br>
   <br></br>

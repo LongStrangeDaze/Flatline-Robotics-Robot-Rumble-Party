@@ -29,7 +29,7 @@ export default class KidsParty extends Component {
               <ul>
               Up to 16 participants
               <br></br>
-              minimum age is 7
+              Minimum age is 7
               <br></br>
               Robots: 8
               <br></br>
@@ -39,7 +39,7 @@ export default class KidsParty extends Component {
               <br></br>
               Duration: 2 Hours
               <br></br>
-              Start Hour: 11 AM / 3.30 PM Sat & Sun
+              Party Hours: 11 AM / 3.30 PM Sat & Sun
             </ul>
               </div>
             <div class="column">
@@ -65,7 +65,7 @@ export default class KidsParty extends Component {
               <br></br> 
               Up to 24 participants
               <br></br>
-              minimum age is 7
+              Minimum age is 7
               <br></br>
               Robots: 10
               <br></br>
@@ -75,7 +75,7 @@ export default class KidsParty extends Component {
               <br></br>
               Duration: 3 Hours
               <br></br>
-              Start Hour: 3.30 PM Sat & Sun
+              Party Hours: 3:30 PM Sat & Sun
               </ul>
             </div>
             <div class="column">
@@ -83,8 +83,8 @@ export default class KidsParty extends Component {
              <img src={delux2} /></div>
           </div>
 
-          The Deluxe is ideal for larger groups
-          With extra Robots and an extra hour, we can accommodate the entire class
+          The Deluxe is ideal for larger groups.
+          With extra Robots and an extra hour, we can accommodate the entire class.
         </p>
         <p>
         <a class="btn btn-outline-dark"  role="button">
@@ -103,7 +103,7 @@ export default class KidsParty extends Component {
               <br></br>
               Up to 18 participants
               <br></br>
-              minimum age is 9
+              Minimum age is 9
               <br></br>
               Robots: 14
               <br></br>
@@ -113,7 +113,7 @@ export default class KidsParty extends Component {
               <br></br>
               Duration: 2 Hours
               <br></br>
-              Start Hour: 11 AM / 3.30 PM
+              Party Hours: 11 AM / 3.30 PM
               <br></br>
                </ul>
               </div>
@@ -122,8 +122,8 @@ export default class KidsParty extends Component {
                 <img src={advanced2} />
             </div>
           </div>
-          Time to break out the big guns.
-         As our spinner and pneumatic robots take to the arena with more powerful weapon types.
+         Time to break out the big guns.
+         We bring out our spinner and pneumatic robots take to the arena with more powerful weapon types.
  
         </p>
         <p>
@@ -139,7 +139,7 @@ export default class KidsParty extends Component {
               <ul>
               <h5><strong><center>Big Bang Party</center></strong></h5>
               <br></br>
-              unlimited guests
+              Unlimited Guests
               <br></br>
               Robots: 20
               <br></br>

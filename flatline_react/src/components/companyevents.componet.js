@@ -17,23 +17,15 @@ export default class CompanyEvents extends Component {
                   <strong> Company and Team Building Events</strong>
                   <br></br>
                   <br></br>
-                  Basic Corporate Party/ ideal for holiday parties
+                  Basic Corporate Party / Ideal for holiday parties
                   <br></br>
-                  1 - 4
+                  Advanced Arenas with automated Hazards
                   <br></br>
-                  Advanced Arenas
-                  <br></br>
-                  with automated Hazards
-                  <br></br>
-                  10 Combat Robots
-                  <br></br>
-                  per Arena
-                  <br></br>
-                  custom built robots by Flatline Robotics
+                  10 Combat Robots per Arena
                   <br></br>
                   1 Experienced Technician
                   <br></br>
-                  Robot Combat Technician will train and coach your guests.
+                  Our Robot Combat Technician will train and coach your guests.
                 </ul>
               </div>
               <div class="column">
@@ -45,8 +37,8 @@ export default class CompanyEvents extends Component {
                 
               </div>
             </div>
-            Flatline Robotics sends out one of our Senior Technicians along with our Advanced arena!
-            They organize either a Tournament Bracket for you and your co-workers or Fair Style where we hold four-way rumble matches for anyone who wants to jump into the action!
+            Flatline Robotics sends out our Senior Technicians along with our Advanced arena!
+            They will organize a Tournament Bracket for you and your co-workers or Free For All where we hold four-way rumble matches for anyone who wants to jump into the action!
           </p>
           
 
