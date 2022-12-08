@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import logo from '../images/flatlineicon.png'
 import logo2 from '../images/flatlineicon1.png'
 
@@ -15,7 +16,7 @@ export default class Main extends Component {
         <br></br>
         <center><strong>We offer very an experience like no other. Click the gear below to get started</strong></center>
         <br></br>
-        <center><a href="/aboutus"><img src={logo2}/></a></center>
+        <center><Link to={'/aboutus'}><img src={logo2}/></Link></center>
         <footer><h10>presented by Flatline Robotics</h10></footer>
   
 <p>
