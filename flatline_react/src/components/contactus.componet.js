@@ -30,7 +30,7 @@ const ContactForm = () => {
       message: message.value,
     }
     console.log(conForm)
-    postData(/*"https://api.fr0.co/contactApi"*/ "http://localhost:5000/", conForm).then((data) => {
+    postData(/*"https://api.fr0.co/contactApi"*/ "https://www.flatlinerobotics.com/contactapi", conForm).then((data) => {
       console.log(data);
       if(data.success = 1) {
         setFormStatus("Success!")
